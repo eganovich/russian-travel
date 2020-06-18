@@ -4,9 +4,8 @@
 @import url(./__caption/lead__caption.css);
 
 .lead{
-    margin: auto;
-    padding-left: 148px;
-    padding-right: 148px;
     display: flex;
     flex-direction: column;
+     
+    margin: 0px 148px 92px 148px;
 }

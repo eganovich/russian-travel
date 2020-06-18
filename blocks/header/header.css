@@ -3,12 +3,17 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header{
-    width: 1184px;
     min-height: 52px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 28px auto 56px auto;
+    padding: 28px 48px 56px 48px;
+   
+}
 
 
+@media screen and (max-width: 1024px){
+    .header{
+        padding: 28px 48px 48px 48px;
+    }
 }
