@@ -5,3 +5,10 @@
     column-gap: 32px;
 
 }
+
+@media screen and (max-width: 320px){
+  .places__place{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+}
