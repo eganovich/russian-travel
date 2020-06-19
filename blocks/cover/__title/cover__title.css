@@ -8,7 +8,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
+  .cover__title{
+    font-size: 52px;
+      }
+}
+
+@media screen and (max-width: 384px){
   .cover__title{
     margin: auto auto 16px auto;
     font-size: 32px;

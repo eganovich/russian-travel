@@ -7,8 +7,18 @@
   text-decoration: none;
   padding-left: 18px;
   color: #FFFFFF;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
 }
 
-.header__lang-link:active{
-  text-decoration: underline;
+.header__lang-link:hover{
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in;
+}
+
+@media screen and (max-width: 360px){
+  .header__lang-link{
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }

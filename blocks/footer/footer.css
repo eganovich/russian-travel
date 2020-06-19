@@ -9,3 +9,17 @@
     max-width: 1184px;
     margin: 0px 48px 24px 48px;
 }
+
+@media screen and (max-width: 768px){
+    .footer{
+        margin: 0px 24px 24px 24px;
+    }
+  }
+
+@media screen and (max-width: 587px){
+    .footer{
+        flex-direction: column;
+        margin: 0px auto 24px 16px;
+        min-height: 310px;
+    }
+}

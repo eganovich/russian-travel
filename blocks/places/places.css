@@ -6,6 +6,7 @@
 @import url(./__website/places__website.css);
 @import url(./__url-heading/places__url-heading.css);
 @import url(./__link/places__link.css);
+@import url(./__website/_display/places__website_display_none.css);
 
 .places{
     margin: 0px 148px 108px 148px;
@@ -16,12 +17,20 @@
 @media screen and (max-width: 1024px){
   .places{
     margin: 0px 48px 92px 48px;
-  }
+ }
 }
 
 @media screen and (max-width: 768px){
   .places{
     margin: 0px 24px 88px 24px;
     gap: 72px;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  .places{
+    margin: 0px 0px 64px 0px;
+    gap: 48px;
   }
 }

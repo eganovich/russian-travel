@@ -1,12 +1,13 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_status/header__lang-link_status_active.css);
 
 .header{
     min-height: 52px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding: 28px 48px 56px 48px;
    
 }

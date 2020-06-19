@@ -1,0 +1,5 @@
+@media screen and (max-width: 440px){
+    .places__website_display_none{
+        display: none;
+    }
+  }
