@@ -1,7 +1,7 @@
 @import url(./__content/page__content.css);
 
 .page{
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;    
     font-weight: normal;
     background: #2A2C2F;
     color: #FFFFFF;

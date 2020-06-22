@@ -6,7 +6,6 @@
 @import url(./__website/places__website.css);
 @import url(./__url-heading/places__url-heading.css);
 @import url(./__link/places__link.css);
-@import url(./__website/_display/places__website_display_none.css);
 
 .places{
     margin: 0px 148px 108px 148px;

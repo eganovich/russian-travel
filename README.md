@@ -10,3 +10,6 @@
 
 **Что дальше?**
 Планируется реализовать английскую версию сайта.
+
+**Ссылка на GitHub Pages**
+[https://eganovich.github.io/russian-travel/]
