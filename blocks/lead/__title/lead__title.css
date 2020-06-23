@@ -8,27 +8,13 @@
   max-width: 720px;
 }
 
-@media screen and (max-width: 691px){
+@media screen and (max-width: 767px){
   .lead__title{
-    font-size: 80px;
+    font-size: 12vw;
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-
-@media screen and (max-width: 600px){
-  .lead__title{
-    font-size: 60px;
-  }
-}
-
-
-@media screen and (max-width: 454px){
-  .lead__title{
-    font-size: 45px;
-  }
-}
-
 
 @media screen and (max-width: 348px){
   .lead__title{
