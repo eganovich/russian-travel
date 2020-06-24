@@ -4,5 +4,12 @@
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 18px;
 
 }
+
+@media screen and (max-width: 360px){
+    .header__lang-links{
+        padding-top: 14px;
+      }
+    }
